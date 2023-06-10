@@ -1,9 +1,12 @@
 import React from 'react'
+import {Canvas} from '@react-three/fiber'
+import {Environment,Center} from '@react-three/drei'
 
-export const canvas = () => {
+
+export const CanvasModel = () => {
   return (
-    <div>canvas</div>
+    <div>CanvasModel</div>
   )
 }
 
-export default canvas
+export default CanvasModel
